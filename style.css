@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'STAYHOME';
+    src:url(STAYHOME.otf);
+}
+
+html {
+    background: url(img/imgVD.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+body {
+    color: #FFD369;
+}
+
+header {
+    background-color: #393E46;
+    margin: -10px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'STAYHOME';
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+#search {
+    font-size: 30px;
+}
+
+#ok {
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #FFD369;
+    border-radius: 5px;
+}
+
+#aliment {
+    background-color: #222831;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.resultat {
+	background-color: #222831;
+	font-size: 25px;
+	text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 60px;
+    width: 500px;
+    height: auto;
+    line-height: 0.5em;
+    margin-left: 400px;
+}
+
+.error {
+    background-color: #222831;
+	font-size: 30px;
+	text-align: center;
+    position: relative;
+	margin-left: 500px;
+    margin-top: 60px;
+    width: 320px;
+    height: 50px;
+}
+
+
+@media only screen and (max-width: 820px) {
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    color: #FFD369;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+    
+form {
+    position: relative;
+    font-weight: bold;
+    flex-direction: column;
+}
+    
+#search {
+    font-size: 20px;
+    text-align:left;  
+    width: 330px;
+    height: 30px;
+    margin-top: 10px;
+}
+    
+#ok {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #FFD369;
+    border-radius: 5px;
+    text-align: center;  
+    margin-left: 150px;
+    width: 50px;
+    height: 30px;
+}
+    
+#aliment {
+    background-color: #222831;
+    text-align: center;
+    width: 180px;
+    margin-left: 80px;
+}
+    
+.resultat {
+    background-color: #222831;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 320px;
+    height:160px;
+    padding: 5px;
+}
+    
+.error {
+    background-color: #222831;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 320px;
+    height: 30px;
+}
+}
+
+@media only screen and (min-width: 1300px) {
+
+.error {
+    margin-left: 780px;
+}
+
+.resultat {
+    margin-left: 700px;
+}
+}
